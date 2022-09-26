@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volleyball</title>
+  <link rel="stylesheet" href="/event.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo1.png" width="125px" />
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html" class="hover:bg-yellow-400 p-2 rounded-md hover:text-white">Home</a></li>
+          <li><a href="badminton.html" class="hover:bg-yellow-400 p-2 rounded-md hover:text-white">Games</a></li>
+          <li><a href="fan and ac.html" class="hover:bg-yellow-400 p-2 rounded-md hover:text-white">Electronic
+              Devices</a></li>
+          <li><a href="bench and tables.html" class="hover:bg-yellow-400 p-2 rounded-md hover:text-white">Bench and
+              tables</a></li>
+        </ul>
+      </nav>
+      <img src="images/store.png" width="30px" height="30px" />
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+    </div>
+  </div>
+  <ul class="indicator flex space-x-3">
+  </ul>
+  <div class="pl-20">
+    <span><a href="badminton.html"
+        class="rounded-md bg-gradient-to-tr from-cyan-400 to-cyan-200 py-1 px-4">Badminton</a></span>
+    <span><a href="cricket.html"
+        class="rounded-md bg-gradient-to-tr from-cyan-400 to-cyan-200 py-1 px-4">Cricket</a></span>
+    <span><a href="football.html"
+        class="rounded-md bg-gradient-to-tr from-cyan-400 to-cyan-200 py-1 px-4">Football</a></span>
+    <span><a href="volleyball.html"
+        class="rounded-md bg-gradient-to-tr from-cyan-400 to-cyan-200 py-1 px-4">Volleyball</a></span>
+    <span><a href="indoor.html" class="rounded-md bg-gradient-to-tr from-cyan-400 to-cyan-200 py-1 px-4">Indoor
+        Games</a></span>
+  </div>
+  <div class="small-container"></div>
+  <div class="filter-condition flex">
+    <h2 class="ml-20 text-3xl border-orange-400 border-4 p-2 rounded-md animate-bounce">Volleyball</h2>
+    <select name="" id="select1" class="mr-20">
+      <option value="default">Click for</option>
+      <option value="price">Sort by Price</option>
+    </select>
+    <select name="" id="select2" class="mr-20">
+      <option value="default">Click for</option>
+      <option value="rating">Sort by rating</option>
+    </select>
+  </div>
+  </header>
+  <div class="product-field">
+    <div class="row mx-20">
+      <div class="col-4" data-category="" data-price="">
+        <picture>
+          <img src="images/40s.png" alt="">
+        </picture>
+        <div class="detail">
+          <h1>Cosco</h1>
+          <strong>Volleyball</strong>
+        </div>
+        <div>
+          <h4>4<i class="fa fa-star"></i></h4>
+          <h4>$1100</h4>
+        </div>
+      </div>
+      <div class="col-4" data-category="" data-price="">
+        <picture>
+          <img src="images/41s.png" alt="">
+        </picture>
+        <div class="detail">
+          <h1>Yonex</h1>
+          <strong>Volleyball</strong>
+        </div>
+        <div>
+          <h4>5<i class="fa fa-star"></i></h4>
+          <h4>$1800</h4>
+        </div>
+      </div>
+      <div class="col-4" data-category="" data-price="">
+        <picture>
+          <img src="images/39s.png" alt="">
+        </picture>
+        <div class="detail">
+          <h1>RUC</h1>
+          <strong>Volleyball</strong>
+        </div>
+        <div>
+          <h4>1<i class="fa fa-star"></i></h4>
+          <h4>$1500</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="bg-gradient-to-tr from-gray-300 to-gray-100 py-4">
+    <img src="images/logo1.png" class="h-20 px-96 mx-80" />
+    <p class="text-center text-lg">
+      Our purpose is to sustainiblity make the pleasure and benefits of
+      sports accessible to the many.
+    </p>
+    <br>
+    <p class="text-center text-lg">Made with ❤️ by team Virtuoso </p>
+  </div>
+  </main>
+</body>
+
+</html>
+<script type="text/javascript" src="/price.js"></script>
+<script type="text/javascript" src="/rating.js"></script>
+<script type="text/javascript" src="/toggle.js"></script>
